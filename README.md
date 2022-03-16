@@ -1,5 +1,5 @@
 # Burp Extension Downloader
-When working with Burp Suite on customer machines the BApp Store is often blocked and the analyst has to manually install extensions. Keeping a local copy of Bapp files manually is painful. This script can be used to download the latest versions of the most common Burp extensions from the BApp store.
+When working with Burp Suite on customer machines the BApp Store is often blocked and the analyst has to manually install extensions. Keeping an up-to-date local copy of Bapp files manually is painful. This script can be used to download the latest versions of the most common Burp extensions from the BApp store.
 
 ## Installation
 
