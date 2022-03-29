@@ -32,7 +32,7 @@ BAPP_IDS = [
     ('SAML Raider', 'saml_raider.bapp', 'c61cfa893bb14db4b01775554f7b802e'),
     ('Taborator', 'taborator.bapp', 'c9c37e424a744aa08866652f63ee9e0f'),
     ('Turbo Intruder', 'turbo_intruder.bapp', '9abaa233088242e8be252cd4ff534988'),
-    ('Uplaod Scanner', 'upload_scanner.bapp', 'b2244cbb6953442cb3c82fa0a0d908fa'),
+    ('Upload Scanner', 'upload_scanner.bapp', 'b2244cbb6953442cb3c82fa0a0d908fa'),
 ]
 
 
@@ -56,9 +56,9 @@ def download_bapp(bapp_name, bapp_url):
 
 def zip_bapps_dir(zip_file_name, bapps_dir):
 
-    print('[*] Creting ZIP archive...')
+    print('[*] Creating ZIP archive...')
     shutil.make_archive(zip_file_name, 'zip', base_dir=bapps_dir)
-    print('[*] Creting GZTAR archive...')
+    print('[*] Cretaing GZTAR archive...')
     shutil.make_archive(zip_file_name, 'gztar', base_dir=bapps_dir)
 
 
