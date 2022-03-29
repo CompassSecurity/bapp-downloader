@@ -24,6 +24,7 @@ BAPP_IDS = [
     ('Log4Shell Scanner', 'log4shell_scanner.bapp', 'b011be53649346dd87276bca41ce8e8f'),
     ('OpenAPI Parser', 'open_api_parser.bapp', '6bf7574b632847faaaa4eb5e42f1757c'),
     ('Param Miner', 'param_miner.bapp', '17d2949a985c4b7ca092728dba871943'),
+    ('Proxy Auto Config', 'proxy_auto_config.bapp', '7b3eae07aa724196ab85a8b64cd095d1'),
     ('Reflected Parameters', 'reflected_parameters.bapp', '8e8f6bb313db46ba9e0a7539d3726651'),
     ('Request Minimizer', 'request_minimizer.bapp', 'cc16f37549ff416b990d4312490f5fd1'),
     ('Request Randomizer', 'request_randomizer.bapp', '36d6d7e35dac489b976c2f120ce34ae2'),
