@@ -58,7 +58,7 @@ def zip_bapps_dir(zip_file_name, bapps_dir):
 
     print('[*] Creating ZIP archive...')
     shutil.make_archive(zip_file_name, 'zip', base_dir=bapps_dir)
-    print('[*] Cretaing GZTAR archive...')
+    print('[*] Creating GZTAR archive...')
     shutil.make_archive(zip_file_name, 'gztar', base_dir=bapps_dir)
 
 
