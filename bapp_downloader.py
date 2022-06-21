@@ -41,10 +41,7 @@ def extract_bapp_url(bapp_id):
     res = requests.get(BASE_URL + bapp_id)
     soup = BeautifulSoup(res.content, features='html.parser')
 
-    for a in soup.find_all('a'):
-        clazz = a.get('class', [''])[0]
-        if clazz == 'btn-bapp-download':
-            return a['href']
+    return soup.find_all('a', id='DownloadedLink')[0]['href']
 
 
 def download_bapp(bapp_name, bapp_url):
