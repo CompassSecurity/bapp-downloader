@@ -1,0 +1,14 @@
+Ref: https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
+
+Virtual env setup on windows:
+pip3 install virtualenv
+virtualenv --python "c:\users\user1\appdata\local\programs\python\python39\python.exe" venv
+
+
+Executing the code:
+.\venv\Scripts\activate
+pip install -r requirements.txt
+python bapp_downloader.py
+
+
+move bapps\* ..\Burp_Extensions\

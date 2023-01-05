@@ -1,0 +1,12 @@
+# Ignore archive files
+*.tar.gz
+*.zip
+
+# Ignore output directory
+bapps/
+
+
+# Ignore swap files
+*.swp
+
+Get_extensions.bat
