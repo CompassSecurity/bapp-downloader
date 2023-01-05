@@ -98,6 +98,6 @@ if __name__ == '__main__':
 
     # Create archive files
     #zip_bapps_dir('bapps', OUT_DIR)
-    zip_bapps_dir(datetime.now().strftime('bapps_%Y_%m_%d_%H_%M'), OUT_DIR)
+    #zip_bapps_dir(datetime.now().strftime('bapps_%Y_%m_%d_%H_%M'), OUT_DIR)
 
 
