@@ -5,5 +5,6 @@
 # Ignore output directory
 bapps/
 
+
 # Ignore swap files
 *.swp

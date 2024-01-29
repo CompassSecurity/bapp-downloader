@@ -25,9 +25,9 @@ Install dependencies
 [*] Creating ZIP archive...
 [*] Creating GZTAR archive...
 ```
-The individual files are written to `./bapps` and two archives are created:
-* bapps.tar.gz
-* bapps.zip
+The individual files are written to `./bapps` ~~and two archives are created:~~
+~~* bapps.tar.gz~~
+~~* bapps.zip~~
 
 ## Contributions
 Please feel free to add extensions you like :)
